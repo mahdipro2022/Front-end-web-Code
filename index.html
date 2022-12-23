@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Bootstrap</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+<!--            <i class="fa-solid fa-laptop-code fa-2x"></i>-->
+            <img src="img/maka-dev-logo.png" alt="" class="border border-1 rounded" style="width: 150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto flex-md-row-reverse flex-md-column align-items-end">
+                <li class="nav-item">
+                    <a href="#learn" class="nav-link menu-item">آموزش برنامه نویسی</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#qus" class="nav-link menu-item">سوالات</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#trainer" class="nav-link menu-item">اساتید دوره</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--Show Case-->
+<section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-end">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <img src="img/showcase.svg" alt="" class="img-fluid d-none d-sm-block">
+            </div>
+            <div class="col-lg-6 col-md-12 mt-2">
+                <h1 class="">!برنامه نویس <span class="text-warning">سایت</span> شوید</h1>
+                <p class="lead my-4">ما بر آموزش اصول اولیه جدیدترین و بهترین فناوری ها به دانش آموزان خود تمرکز می کنیم تا آنها را برای اولین نقش توسعه دهنده خود آماده کنیم.</p>
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#learning">شروع یادگیری</button>
+            </div>
+        </div>
+        </div>
+</section>
+<!--Newsletter-->
+<section class="bg-primary text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <div class="input-group mb-3 news-input">
+                <button class="btn btn-dark btn-lg" type="button">ارسال</button>
+                <input type="text" class="form-control text-end" placeholder="ایمیل خود را وارد کنید">
+            </div>
+                <h3 class="mb-3 mb-md-0 text-end text-sm-center text-md-end">ایمیل خود را برای دریافت خبرنامه وارد کنید</h3>
+        </div>
+    </div>
+</section>
+<!--Boxes-->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light p-3">
+                    <i class="fas fa-laptop fa-3x mb-3"></i>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h3">دوره های آنلاین</div>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                        <a href="#" class="btn btn-primary button-size">بیشتر</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-light p-3">
+                    <i class="fas fa-user-shield fa-3x mb-3"></i>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h3">مهارت ها</div>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                        <a href="#" class="btn btn-dark button-size">بیشتر</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light p-3">
+                    <i class="fas fa-people-group fa-3x mb-3"></i>
+                    <div class="card-body">
+                        <div class="card-title mb-3 h3">آموزش</div>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                        <a href="#" class="btn btn-primary button-size">بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Learn Section-->
+<section id="learn" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5 text-end">
+                <h2 class="">آموزش مبانی برنامه نویسی</h2>
+                <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                <a href="" class="btn btn-light mt-3">
+                    <i class="fas fa-chevron-left"></i>
+                    بیشتر بخوانید
+                </a>
+            </div>
+            <div class="col-md">
+                <img src="img/fundamentals.svg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="learn" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="img/react.svg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md p-5 text-end">
+                <h2 class="">آموزش وردپرس</h2>
+                <p class="lead">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                <a href="" class="btn btn-light mt-3">
+                    <i class="fas fa-chevron-left"></i>
+                    بیشتر بخوانید
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Qus Accordion-->
+<section class="m-5" id="qus">
+    <div class="container">
+        <h2 class="text-center m-3">سوالات متداول</h2>
+        <div class="accordion accordion-flush text-end" id="accordionFlushExample">
+<!--            item-1-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed button-pos" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                        در این دوره چه می آموزیم؟
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</div>
+                </div>
+            </div>
+<!--            item-2-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed button-pos" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                        روش ثبت نام در دوره ها چگونه است؟
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</div>
+                </div>
+            </div>
+<!--            item-3-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed button-pos" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                        بهترین دوره های برنامه نویسی کدامند؟
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنانلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--trainer-->
+<section class="p-5 bg-primary" id="trainer">
+    <div class="container">
+        <h2 class="text-center text-white">اساتید دوره</h2>
+        <p class="lead text-center text-white mb-5">بهترین اساتید دوره های برنامه نویسی در آکادمی ما</p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="img/1.jpg" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-title mb-3">ویکتوریا</h3>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-facebook text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram text-dark mx-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="img/2.jpg" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-title mb-3">آلبرت</h3>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-facebook text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram text-dark mx-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="img/3.jpg" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-title mb-3">هانا</h3>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-facebook text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram text-dark mx-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="img/4.jpg" alt="" class="rounded-circle mb-3">
+                        <h3 class="card-title mb-3">مکس</h3>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-facebook text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter text-dark mx-2"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram text-dark mx-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact-->
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <img src="img/map.jpg" alt="" class="img-fluid rounded shadow-sm">
+            </div>
+            <div class="col-md">
+                <h2 class="text-center mb-2">تماس با ما</h2>
+                <ul class="list-group list-group-flush lead text-end">
+                    <li class="list-group-item">
+                        <span class="fw-bold">آدرس</span> تهران - خیابان ولیعصر
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">تلفن</span> 25654589
+                    </li>
+                    <li class="list-group-item">
+                        maka@mail.com <span class="fw-bold">:ایمیل</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<footer class="bg-dark p-5 text-white text-center position-relative">
+    <div class="container">
+        <p class="lead">کپی رایت&copy; 2022</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="fas fa-circle-chevron-up fa-3x"></i>
+        </a>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="learning" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header flex-row-reverse">
+                <h5 class="modal-title" id="exampleModalLabel">فرم ثبت نام</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-end">ثبت نام دوره های آموزشی</p>
+                <form action="" class="mb-3 text-end">
+                    <div class="mb-3">
+                        <label for="name" class="col-form-label">نام</label>
+                        <input type="text" class="form-control text-end" id="#name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastname" class="col-form-label">نام خانوادگی</label>
+                        <input type="text" class="form-control text-end" id="#lastname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">ایمیل</label>
+                        <input type="text" class="form-control text-end" id="#email">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+                <button type="button" class="btn btn-primary">ارسال</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
