@@ -1,0 +1,121 @@
+@font-face {
+    font-family: vazirmatn;
+    src: url("../font/Vazirmatn-Regular.woff2") format("woff2");
+}
+
+body {
+    font-family: vazirmatn;
+}
+
+a {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+.menu-item {
+    font-size: 1.1rem;
+    transition: color .5s;
+}
+.menu-item:hover {
+    color: #ffc107;
+    font-size: 1.1rem;
+}
+.button-size {
+    width: 50%;
+}
+.button-pos {
+    /*text-align: center !important;*/
+    direction: rtl;
+}
+.accordion-button::after {
+    margin-right: auto !important;
+    margin-left: 0;
+}
+.modal-header .btn-close {
+    margin-right: auto !important;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navbar change icon-1*/
+/*.navbar-toggler:not(.collapsed) .navbar-toggler-icon {*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+/*.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {*/
+/*    transform: rotate(-90deg) translateX(7px) ;*/
+/*}*/
+/*navbar change icon-1*/
+
+/*navbar change icon-2*/
+/*.navbar-toggler-icon {*/
+/*    background-image: none!important;*/
+/*    background-color: var(--bs-gray-800);*/
+/*    height: 3px;*/
+/*    width: 25px;*/
+/*    margin: 10px 0;*/
+/*    position: relative;*/
+/*    transition: all 0.35s ease-out;*/
+/*    transform-origin: center;*/
+/*}*/
+
+/*.navbar-toggler-icon::before {*/
+/*    display: block;*/
+/*    background-color: var(--bs-gray-800);*/
+/*    height: 3px;*/
+/*    content: "";*/
+/*    position: relative;*/
+/*    top: -7px;*/
+/*    transition: all 0.15s ease-out;!*taken down to hide quicker*!*/
+/*    transform-origin: center;*/
+/*}*/
+
+/*.navbar-toggler-icon::after {*/
+/*    display: block;*/
+/*    background-color: var(--bs-gray-800);*/
+/*    height: 3px;*/
+/*    content: "";*/
+/*    position: relative;*/
+/*    top: 4px;*/
+/*    transition: all 0.35s ease-out;*/
+/*    transform-origin: center;*/
+/*}*/
+
+/*.navbar-dark .navbar-toggler-icon,*/
+/*.navbar-dark .navbar-toggler-icon::before,*/
+/*.navbar-dark .navbar-toggler-icon::after {*/
+/*    background-color: var(--bs-gray-100);*/
+/*}*/
+
+/*.navbar-toggler:not(.collapsed) .navbar-toggler-icon {*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+/*.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {*/
+/*    transform: rotate(-90deg) translateX(7px);*/
+/*}*/
+/*navbar change icon-2*/
